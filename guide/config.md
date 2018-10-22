@@ -17,7 +17,7 @@ MyBatis-Plus 的配置异常的简单，我们仅需要一些简单的配置即�
     ```java {2}
     @SpringBootApplication
     @MapperScan("com.baomidou.mybatisplus.samples.quickstart.mapper")
-    public class Application {
+    public class QuickStartApplication {
 
         public static void main(String[] args) {
             SpringApplication.run(QuickStartApplication.class, args);
